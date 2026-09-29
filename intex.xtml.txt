@@ -3,37 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My AI Buddy - Android App</title>
+    <title>My AI Bunny Buddy</title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
         body {
-            font-family: Arial, sans-serif;
-            background-color: #0f172a;
+            background: linear-gradient(135deg, #0f172a, #1e293b);
             color: #ffffff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 40px;
+            border-radius: 20px;
             text-align: center;
-            padding: 50px;
+            max-width: 600px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
         }
         h1 {
             color: #38bdf8;
+            margin-bottom: 15px;
+            font-size: 2.5rem;
         }
         p {
-            font-size: 18px;
             color: #94a3b8;
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+        .badge {
+            display: inline-block;
+            background: #0284c7;
+            color: white;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            margin-bottom: 20px;
+            font-weight: bold;
         }
         .btn {
             display: inline-block;
-            margin-top: 20px;
-            padding: 12px 24px;
+            padding: 12px 28px;
             background-color: #38bdf8;
             color: #0f172a;
             text-decoration: none;
             font-weight: bold;
-            border-radius: 8px;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #7dd3fc;
+            transform: translateY(-2px);
         }
     </style>
 </head>
 <body>
-    <h1>My AI Buddy 🐰</h1>
-    <p>Kotlin va Jetpack Compose yordamida yaratilgan 3D quyonchali sun'iy intellekt mobil ilovasi.</p>
-    <a href="https://github.com/jorayev01/my-ai-bunny-buddy-android-mobile-application-project-2026-version-one-alpha-release-test-build" class="btn">GitHub Repozitoriy</a>
+    <div class="container">
+        <div class="badge">Android & Web Project</div>
+        <h1>My AI Bunny Buddy 🐰</h1>
+        <p>Kotlin, Jetpack Compose va 3D texnologiyalari asosida yaratilgan sun'iy intellekt mobil ilovasining rasmiy veb-sahifasi.</p>
+        <a href="https://github.com/jorayev01/my-ai-bunny-buddy-android-mobile-application-project-2026-version-one-alpha-release-test-build" class="btn" target="_blank">GitHub'da Ko'rish</a>
+    </div>
 </body>
 </html>
