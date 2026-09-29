@@ -1,1 +1,39 @@
-a
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My AI Buddy - Android App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0f172a;
+            color: #ffffff;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #38bdf8;
+        }
+        p {
+            font-size: 18px;
+            color: #94a3b8;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 24px;
+            background-color: #38bdf8;
+            color: #0f172a;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>My AI Buddy 🐰</h1>
+    <p>Kotlin va Jetpack Compose yordamida yaratilgan 3D quyonchali sun'iy intellekt mobil ilovasi.</p>
+    <a href="https://github.com/jorayev01/my-ai-bunny-buddy-android-mobile-application-project-2026-version-one-alpha-release-test-build" class="btn">GitHub Repozitoriy</a>
+</body>
+</html>
